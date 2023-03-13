@@ -1,0 +1,148 @@
+body {
+    font-family:  'Montserrat', sans-serif;
+    text-align: center !important;
+}
+
+h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5 !important;
+}
+#title {
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7% !important; 
+}
+.section-heading {
+    font-size: 2.7rem;
+    line-height: 2 !important; 
+}
+.container-fluid {
+    padding:7% 15% !important;
+}
+
+.iphone {
+    border-radius: 10%;
+    transform:rotate(25deg);
+    position: absolute;
+}
+/*************************************section bar***********************************************/
+.colored-section {
+    background-color: #aae3e2;
+    color: white;
+
+}
+.white-section {
+    background-color: white;
+}
+/*************************************navigation bar***********************************************/
+.navbar {
+    padding: 0 0 4.5rem !important;
+
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 3.5rem !important;
+    font-weight: bold ;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+     font-size: 1.2rem;    
+}
+.Download-button {
+     margin: 5% 3% 5% 0;
+}
+/************************************************Features section**********************************************/
+
+#features {
+    position: relative;
+}
+.box {
+    padding: 4.5%;
+}
+.feature-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+p {
+    color:darkgray;
+}
+.icon {
+    color:lightskyblue;
+    margin-bottom: 1rem;  
+}
+.icon:hover {
+    color: #aae3e2;
+}
+
+/************************************************testimonial section********************************************/
+
+#testimonials {
+  color: white;
+  
+}
+.circle {
+    border-radius: 140%;
+    width: 20%;
+    margin: 20px 20px 5px 20px;
+}  
+
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+
+}
+
+.testimonial-text {
+    font-size: 2.7rem;
+    line-height: 1.5 !important; 
+}
+
+/************************************************pricing section********************************************/
+
+#pricing {
+    padding: 100px;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5 !important; 
+}
+
+/******************************************call to action section*****************************************/
+.cta-heading {
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+/******************************************footer section*****************************************/
+
+#footer {
+    font-size: 1.5rem;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
